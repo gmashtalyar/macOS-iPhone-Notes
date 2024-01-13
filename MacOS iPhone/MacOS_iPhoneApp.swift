@@ -1,10 +1,3 @@
-//
-//  MacOS_iPhoneApp.swift
-//  MacOS iPhone
-//
-//  Created by Геннадий Машталяр on 13.01.2024.
-//
-
 import SwiftUI
 
 @main
@@ -13,5 +6,8 @@ struct MacOS_iPhoneApp: App {
         WindowGroup {
             ContentView()
         }
+        #if os(macOS)
+        .windowStyle(HiddenTitleBarWindowStyle())
+        #endif
     }
 }

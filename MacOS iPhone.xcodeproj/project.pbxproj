@@ -11,6 +11,9 @@
 		DCBCB66A2B52C81700985DA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBCB6692B52C81700985DA3 /* ContentView.swift */; };
 		DCBCB66C2B52C81900985DA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCBCB66B2B52C81900985DA3 /* Assets.xcassets */; };
 		DCBCB6702B52C81900985DA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCBCB66F2B52C81900985DA3 /* Preview Assets.xcassets */; };
+		DCBCB6782B52CA4000985DA3 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBCB6772B52CA4000985DA3 /* Home.swift */; };
+		DCBCB67B2B52D69700985DA3 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBCB67A2B52D69700985DA3 /* Note.swift */; };
+		DCBCB67D2B52E7BF00985DA3 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBCB67C2B52E7BF00985DA3 /* BlurView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		DCBCB66B2B52C81900985DA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCBCB66D2B52C81900985DA3 /* MacOS_iPhone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacOS_iPhone.entitlements; sourceTree = "<group>"; };
 		DCBCB66F2B52C81900985DA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DCBCB6772B52CA4000985DA3 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		DCBCB67A2B52D69700985DA3 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		DCBCB67C2B52E7BF00985DA3 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,8 @@
 		DCBCB6662B52C81700985DA3 /* MacOS iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				DCBCB6792B52D68A00985DA3 /* Model */,
+				DCBCB6762B52CA3100985DA3 /* View */,
 				DCBCB6672B52C81700985DA3 /* MacOS_iPhoneApp.swift */,
 				DCBCB6692B52C81700985DA3 /* ContentView.swift */,
 				DCBCB66B2B52C81900985DA3 /* Assets.xcassets */,
@@ -67,6 +75,23 @@
 				DCBCB66F2B52C81900985DA3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DCBCB6762B52CA3100985DA3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DCBCB6772B52CA4000985DA3 /* Home.swift */,
+				DCBCB67C2B52E7BF00985DA3 /* BlurView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DCBCB6792B52D68A00985DA3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DCBCB67A2B52D69700985DA3 /* Note.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +165,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCBCB66A2B52C81700985DA3 /* ContentView.swift in Sources */,
+				DCBCB6782B52CA4000985DA3 /* Home.swift in Sources */,
+				DCBCB67D2B52E7BF00985DA3 /* BlurView.swift in Sources */,
 				DCBCB6682B52C81700985DA3 /* MacOS_iPhoneApp.swift in Sources */,
+				DCBCB67B2B52D69700985DA3 /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
